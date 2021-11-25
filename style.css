@@ -7,25 +7,19 @@
 }
 .body {
     box-sizing: border-box;
-    color: rgb(70,70,70);
     font-family: "Work Sans" sans-serif;
-  }
-
-
+}
 .header{
-    width: 100%;
     height: 100vh;
     background-image: url(landingpage.jpeg);
-    background-size: cover;
-    padding: 0 2%;
+    background-size: cover;   
     position: relative;
 }
 nav{
     display: flex;
-    width: 100%;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 20px;
 }
 .logo{
     width: 120px;
@@ -55,7 +49,6 @@ nav ul li a:hover{
     color: rgb(36, 101, 251);
 }
 .text-box{
-  
     font-size: 17px;
     letter-spacing: 1px;
     line-height: 26px;
@@ -66,7 +59,8 @@ nav ul li a:hover{
 }
 .layout{
     display: flex;
-    padding: 20px 50px;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-top: 100px;
     justify-content: space-between;
     
@@ -87,7 +81,7 @@ nav ul li a:hover{
     letter-spacing: 1px;
 }
 .detail img{
-    width: 500px;
+    width: 400px;
     height: 400px;
     display: block;
     margin: 0 auto;
@@ -100,7 +94,6 @@ nav ul li a:hover{
 }
 .box-2{
     width: 45%;
-
     height: 60vh;
 }
 .detail-2 h1{
@@ -117,11 +110,10 @@ nav ul li a:hover{
     text-align: right;
 }
 .detail-2 img{
-    height: 350px;
+    height: 300px;
 }
 .box-3{
     width: 45%;
-
     height: 60vh;
 }
 .detail-3 img{
@@ -143,7 +135,6 @@ nav ul li a:hover{
 }
 .box-4{
     width: 45%;
-
     height: 60vh;
 }
 .detail-4 img{
@@ -201,21 +192,12 @@ nav ul li a:hover{
     padding: 10px;
     justify-content: space-around;
 }
-.container .info{
-    border: 2px solid black;
-    height: 55vh;
-    width: 30%;
-    border-radius: 10px;
+.pos{
+    width:80%;
+    margin: 0 auto;
 }
-.info .creator{
-    padding: 12px;
-    
-}
-.creator h1{
-    font-weight: 700;
+footer{
     text-align: center;
-}
-.creator p{
-    margin-top: 15px;
-    font-size: 20px;
+    font-size: 25px;
+
 }
